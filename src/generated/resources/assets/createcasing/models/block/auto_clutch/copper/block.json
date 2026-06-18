@@ -1,9 +1,0 @@
-{
-  "parent": "create:block/clutch/block",
-  "textures": {
-    "0": "createcasing:block/automatic_clutch_off/copper",
-    "1": "createcasing:block/gearbox/copper",
-    "2": "create:block/funnel/copper_funnel_frame",
-    "particle": "createcasing:block/automatic_clutch_off/copper"
-  }
-}

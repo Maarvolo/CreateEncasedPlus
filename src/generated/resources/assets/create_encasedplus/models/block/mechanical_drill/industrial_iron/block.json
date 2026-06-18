@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/mechanical_drill/block",
+  "textures": {
+    "10": "create_encasedplus:block/casing_very_short/industrial_iron",
+    "gearbox": "create_encasedplus:block/gearbox/industrial_iron",
+    "gearbox_top": "create_encasedplus:block/gearbox_top/industrial_iron",
+    "particle": "create_encasedplus:block/gearbox/industrial_iron"
+  }
+}

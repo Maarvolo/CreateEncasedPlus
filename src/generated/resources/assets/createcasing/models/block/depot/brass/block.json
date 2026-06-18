@@ -1,9 +1,0 @@
-{
-  "parent": "create:block/depot/block",
-  "textures": {
-    "1": "createcasing:block/depot_side/brass",
-    "2": "createcasing:block/depot_top/brass",
-    "3": "create:block/brass_casing",
-    "particle": "create:block/brass_casing"
-  }
-}

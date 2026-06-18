@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/clutch/block",
+  "textures": {
+    "0": "create_encasedplus:block/automatic_clutch_off/weathered_iron",
+    "1": "create_encasedplus:block/gearbox/weathered_iron",
+    "2": "create_encasedplus:block/funnel_frame/weathered_iron",
+    "particle": "create_encasedplus:block/automatic_clutch_off/weathered_iron"
+  }
+}

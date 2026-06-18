@@ -1,9 +1,0 @@
-{
-  "parent": "create:block/depot/block",
-  "textures": {
-    "1": "createcasing:block/depot_side/refined_radiance",
-    "2": "createcasing:block/depot_top/refined_radiance",
-    "3": "create:block/refined_radiance_casing",
-    "particle": "create:block/refined_radiance_casing"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "create:block/clutch/block_powered",
-  "textures": {
-    "0": "createcasing:block/automatic_clutch_on/railway",
-    "1": "createcasing:block/gearbox/railway",
-    "2": "createcasing:block/funnel_frame/railway",
-    "particle": "createcasing:block/automatic_clutch_on/railway"
-  }
-}

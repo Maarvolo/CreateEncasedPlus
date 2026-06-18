@@ -1,0 +1,12 @@
+{
+  "parent": "create:block/deployer/item",
+  "textures": {
+    "10": "create_encasedplus:block/casing_piston/brass",
+    "6": "create_encasedplus:block/piston_bottom/brass",
+    "7": "create_encasedplus:block/piston_inner/brass",
+    "andesite_casing_short": "create_encasedplus:block/casing_short/brass",
+    "gearbox": "create:block/brass_gearbox",
+    "gearbox_top": "create_encasedplus:block/gearbox_top/brass",
+    "particle": "create_encasedplus:block/gearbox_top/brass"
+  }
+}

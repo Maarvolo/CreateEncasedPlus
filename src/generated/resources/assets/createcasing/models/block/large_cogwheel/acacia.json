@@ -1,7 +1,0 @@
-{
-  "parent": "create:block/large_cogwheel",
-  "textures": {
-    "4": "createcasing:block/large_cogwheel/acacia",
-    "particle": "minecraft:block/stripped_acacia_log"
-  }
-}

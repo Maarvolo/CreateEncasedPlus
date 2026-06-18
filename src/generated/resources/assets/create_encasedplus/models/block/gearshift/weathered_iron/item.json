@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/gearshift/item",
+  "textures": {
+    "0": "create_encasedplus:block/gearshift_off/weathered_iron",
+    "1": "create_encasedplus:block/gearbox/weathered_iron",
+    "particle": "create_encasedplus:block/gearshift_off/weathered_iron"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/mechanical_drill/block",
+  "textures": {
+    "10": "create_encasedplus:block/casing_very_short/creative",
+    "gearbox": "create_encasedplus:block/gearbox/creative",
+    "gearbox_top": "create_encasedplus:block/gearbox_top/creative",
+    "particle": "create_encasedplus:block/gearbox/creative"
+  }
+}

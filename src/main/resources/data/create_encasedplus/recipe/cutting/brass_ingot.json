@@ -1,0 +1,17 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "c:ingots/brass"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 6,
+      "item": {
+        "id": "create_encasedplus:brass_shaft"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create_encasedplus:casing_pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:diamond"
+    }
+  ]
+}

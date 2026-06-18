@@ -1,0 +1,7 @@
+{
+  "parent": "create_encasedplus:block/encased_chain_drive/railway/single",
+  "textures": {
+    "particle": "create:block/railway_casing",
+    "side": "create_encasedplus:block/adjustable_chain_gearshift/railway"
+  }
+}

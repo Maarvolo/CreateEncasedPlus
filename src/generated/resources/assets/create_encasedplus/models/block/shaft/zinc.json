@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/shaft",
+  "textures": {
+    "0": "create_encasedplus:block/shaft/zinc",
+    "1": "create_encasedplus:block/shaft/zinc_top",
+    "particle": "create_encasedplus:block/shaft/zinc"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "create:block/encased_shaft/item",
+  "textures": {
+    "1_0": "create_encasedplus:block/shaft/mldeg",
+    "1_1": "create_encasedplus:block/shaft/mldeg",
+    "casing": "create:block/weathered_iron_block",
+    "opening": "create_encasedplus:block/gearbox/weathered_iron",
+    "particle": "create:block/weathered_iron_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create_encasedplus:casing_pressing",
+  "press": "create_encasedplus:copper_press",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:redstone_block"
+    }
+  ]
+}

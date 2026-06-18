@@ -1,38 +1,50 @@
+<h1 align="center"> Create Encased Plus<br>
 
-![CreateHosting](https://api.iglee.fr/image/encased)
-<h1 align="center"> Create Encased <br>
-<a  href="https://www.curseforge.com/minecraft/mc-mods/create-encased/files"><img src="https://cf.way2muchnoise.eu/versions/829380.svg" alt="Supported Versions"></a>
-<a  href="https://www.curseforge.com/minecraft/mc-mods/create-encased"><img src="http://cf.way2muchnoise.eu/829380.svg" alt="CF"></a>
-<a  href="https://modrinth.com/mod/create-encased"><img src="https://img.shields.io/modrinth/dt/create-encased?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="Modrinth"></a> 
-<a  href="https://discord.gg/nFBAXfb"><img src="https://img.shields.io/discord/475580779565416451?color=5865f2&label=Discord&style=flat" alt="Discord"></a>
 </h1>
 
-<p align="center">Create Encased is an addon to the mod <a href="https://github.com/Creators-of-Create/Create/">Create</a></p>
-<p align="center">The addon allow to useall of the casing in shaft; cogwheels and pipes</p>
-<p align="center">Original idea from <a href="https://www.youtube.com/MrMLDEG">MLDEG</a></p>
+<h2 align="center">This is a fork of <a href="https://github.com/iglee42/CreateCasing">Create Encased</a> that aims to separate encased machines recipes for modpack makers</h2>
+<p align="center">Create Encased is an addon for <a href="https://github.com/Creators-of-Create/Create/">Create</a></p>
+<p align="center">The original addon allows the use of all casings in shafts, cogwheels, pipes and machines</p>
 
-<h3>For developer:</h3>
+<h3>Recipes:</h3>
+<p>create_encasedplus:casing_pressing :</p>
 
 ```groovy
-repositories {
-    maven {
-        // Iglee's repo
-        url = "http://maven.iglee.fr/"
-        content {
-            includeGroup "fr.iglee42"
-        }
+{
+  "type": "create_encasedplus:casing_pressing",
+  "press": "create_encasedplus:copper_press",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
     }
+  ],
+  "results": [
+    {
+      "id": "minecraft:redstone_block"
+    }
+  ]
+}
+
+```
+<p>create_encasedplus:casing_mixing :</p>
+
+```groovy
+{
+  "type": "create_encasedplus:casing_mixing",
+  "mixer": "create_encasedplus:copper_mixer",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:apple"
+    }
+  ]
 }
 ```
+<p align="center"><b>"press"</b> and <b>"mixer"</b> can be omitted to allow every encased machines to process the recipe</p>
 
-```groovy
-implementation fg.deobf("fr.iglee42:CreateCasing:${mc_version}-${create_encased_version}
-```
-<h1 align="center">
-<a href="http://maven.iglee.fr/#/releases/fr/iglee42/CreateCasing">
-        <img src="https://flat.badgen.net/maven/v/metadata-url/https/maven.iglee.fr/releases/fr/iglee42/CreateCasing/maven-metadata.xml?color=cf9555&label=CreateEncased" alt="Create Encased Latest Version">
-    </a>
-</h1>
-
-<h6 align="center">Readme by <a href="https://github.com/niouf07">Niouf</a></h6>
-<h6 align="center">Banner by <a href="https://www.youtube.com/@daxznort">Daxz Nort</a></h6>
+<h6 align="center">Original mod by <a href="https://github.com/iglee42">iglee42</a></h6>
+<h6 align="center">Original idea by <a href="https://www.youtube.com/MrMLDEG">MLDEG</a></h6>

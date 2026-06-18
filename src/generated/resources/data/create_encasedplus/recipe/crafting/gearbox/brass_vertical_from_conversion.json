@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_encasedplus:brass_gearbox"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_encasedplus:vertical_brass_gearbox"
+  }
+}

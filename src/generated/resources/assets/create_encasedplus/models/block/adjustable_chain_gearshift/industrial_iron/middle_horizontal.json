@@ -1,0 +1,7 @@
+{
+  "parent": "create_encasedplus:block/encased_chain_drive/industrial_iron/middle_horizontal",
+  "textures": {
+    "particle": "create:block/industrial_iron_block",
+    "side": "create_encasedplus:block/adjustable_chain_gearshift/industrial_iron"
+  }
+}

@@ -69,7 +69,7 @@ public class AutoClutchScreen extends AbstractSimiScreen {
         maxStressWidget.withRange(0,Integer.MAX_VALUE)
                 .writingTo(valueLabel)
                 .withStepFunction((context)->context.control ? (context.shift ? 1024 : 512) : context.shift ? 128 : 1)
-                .titled(Component.translatable("createcasing.auto_clutch.configured_value"))
+                .titled(Component.translatable("create_encasedplus.auto_clutch.configured_value"))
                 .format(i-> Component.literal(addSpacesEveryThreeDigits(i)));
         maxStressWidget.setState(be.getConfiguredValue());
         maxStressWidget.onChanged();
@@ -82,7 +82,7 @@ public class AutoClutchScreen extends AbstractSimiScreen {
         Label opsLabel = new Label(x + 80, y + 52, Component.empty()).withShadow();
         opsInput.forOptions(AutoClutchBlockEntity.Operation.getComponents())
                 .setState(be.getOperation().ordinal())
-                .titled(Component.translatable("createcasing.auto_clutch.operation"))
+                .titled(Component.translatable("create_encasedplus.auto_clutch.operation"))
                 .format(state-> Component.literal(" " + AutoClutchBlockEntity.Operation.values()[state].formatted))
                 .writingTo(opsLabel)
                 .calling(state->{

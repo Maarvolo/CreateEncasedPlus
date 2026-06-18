@@ -14,6 +14,8 @@ public class CCKinetics extends ConfigBase {
     public ConfigBool shouldGlassShaftBreak = b(false,"shouldGlassShaftBreak", Comments.shouldGlassShaftBreak);
 
     public ConfigInt maxSpeedWoodenShaft = i(32,2, 256,"maxSpeedWoodenShaft",Comments.maxSpeedWoodenShaft);
+    public ConfigBool customPressesUseStandardRecipes = b(true,"customPressesUseStandardRecipes",Comments.customPressesUseStandardRecipes);
+    public ConfigBool customMixersUseStandardRecipes = b(true,"customMixersUseStandardRecipes",Comments.customMixersUseStandardRecipes);
     //public final CCStress stressValues = nested(1, CCStress::new, Comments.stress);
 
     public final CCStress stressValues = nested(1, CCStress::new, Comments.stress);
@@ -31,6 +33,8 @@ public class CCKinetics extends ConfigBase {
         static String maxSpeedWoodenShaft = "The max speed wooden shafts can endure";
         static String configurableGearboxRequiresShaft = "Defines if the configurable requires a shaft to add a shaft to a face";
         static String configurableGearboxChangeTwoFaces = "Defines if when the face is changed on the configurable gearbox, the opposite face should be also changed. It doesn't consume more shaft !";
+        static String customPressesUseStandardRecipes = "Allow custom presses to also process standard Create pressing recipes";
+        static String customMixersUseStandardRecipes = "Allow custom mixers to also process standard Create mixing recipes";
         static String stress = "Fine tune the kinetic stats of individual components";
 
     }

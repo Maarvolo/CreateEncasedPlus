@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/shaft",
+  "textures": {
+    "0": "create_encasedplus:block/shaft/mldeg",
+    "1": "create_encasedplus:block/shaft/mldeg",
+    "particle": "create_encasedplus:block/shaft/mldeg"
+  }
+}

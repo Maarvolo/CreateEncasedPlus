@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  },
+  "result": {
+    "id": "create_encasedplus:acacia_shaft",
+    "count": 8
+  }
+}

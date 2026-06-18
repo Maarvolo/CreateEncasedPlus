@@ -1,0 +1,11 @@
+{
+  "parent": "create:block/mechanical_press/block",
+  "textures": {
+    "4": "create_encasedplus:block/press_side/copper",
+    "gearbox": "create_encasedplus:block/gearbox/copper",
+    "gearbox_top": "create:block/copper_casing",
+    "mechanical_press_bottom": "create_encasedplus:block/press_bottom/copper",
+    "mechanical_press_top": "create_encasedplus:block/press_top/copper",
+    "particle": "create:block/copper_casing"
+  }
+}

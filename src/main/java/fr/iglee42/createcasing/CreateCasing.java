@@ -14,6 +14,7 @@ import fr.iglee42.createcasing.config.ModConfigs;
 import fr.iglee42.createcasing.kubejs.KJSExternalHandler;
 import fr.iglee42.createcasing.mixins.create.DeployerBlockEntityAccessor;
 import fr.iglee42.createcasing.registries.*;
+import fr.iglee42.createcasing.registries.AllCasingRecipeTypes;
 import net.createmod.catnip.lang.FontHelper;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceKey;
@@ -43,7 +44,7 @@ import java.util.List;
 @Mod(CreateCasing.MODID)
 public class CreateCasing {
 
-    public static final String MODID = "createcasing";
+    public static final String MODID = "create_encasedplus";
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
@@ -71,6 +72,8 @@ public class CreateCasing {
         EncasedPackets.register();
 
         ModConfigs.register(ModLoadingContext.get(),container);
+
+        AllCasingRecipeTypes.register(modEventBus);
 
         if (ModList.get().isLoaded("sliceanddice"))
             EncasedSliceAndDiceCompat.register(modEventBus);

@@ -1,0 +1,11 @@
+{
+  "parent": "create:block/mechanical_saw/horizontal",
+  "textures": {
+    "andesite_casing_short": "create_encasedplus:block/casing_short/copper",
+    "encased_belt": "create_encasedplus:block/encased_chain_drive/copper",
+    "gearbox": "create_encasedplus:block/gearbox/copper",
+    "gearbox_top": "create_encasedplus:block/gearbox_top/copper",
+    "particle": "create_encasedplus:block/gearbox_top/copper",
+    "slit": "create_encasedplus:block/mechanical_saw_top_no_slot/copper"
+  }
+}

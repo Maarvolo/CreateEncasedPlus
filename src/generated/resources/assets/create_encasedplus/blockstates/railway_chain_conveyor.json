@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_encasedplus:block/chain_conveyor/railway/block"
+    }
+  }
+}

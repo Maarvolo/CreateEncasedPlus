@@ -1,0 +1,6 @@
+{
+  "parent": "create:block/mechanical_drill/head",
+  "textures": {
+    "10": "create_encasedplus:block/casing_very_short/refined_radiance"
+  }
+}

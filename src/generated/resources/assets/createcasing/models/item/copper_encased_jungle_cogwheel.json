@@ -1,6 +1,0 @@
-{
-  "parent": "createcasing:block/encased_cogwheel/copper/item",
-  "textures": {
-    "1_2": "createcasing:block/cogwheel/jungle"
-  }
-}

@@ -1,0 +1,11 @@
+{
+  "parent": "create:block/mechanical_press/block",
+  "textures": {
+    "4": "create_encasedplus:block/press_side/railway",
+    "gearbox": "create_encasedplus:block/gearbox/railway",
+    "gearbox_top": "create:block/railway_casing",
+    "mechanical_press_bottom": "create_encasedplus:block/press_bottom/railway",
+    "mechanical_press_top": "create_encasedplus:block/press_top/railway",
+    "particle": "create:block/railway_casing"
+  }
+}

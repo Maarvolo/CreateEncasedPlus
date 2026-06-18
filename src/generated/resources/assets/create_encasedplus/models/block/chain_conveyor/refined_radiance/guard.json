@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/chain_conveyor/guard",
+  "textures": {
+    "bullwheel": "create_encasedplus:block/bullwheel/refined_radiance",
+    "conveyor_casing": "create_encasedplus:block/conveyor_casing/refined_radiance",
+    "conveyor_port": "create_encasedplus:block/conveyor_port/refined_radiance",
+    "particle": "create:block/refined_radiance_casing"
+  }
+}

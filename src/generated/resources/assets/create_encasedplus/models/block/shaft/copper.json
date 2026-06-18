@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/shaft",
+  "textures": {
+    "0": "create_encasedplus:block/shaft/copper",
+    "1": "create_encasedplus:block/shaft/copper_top",
+    "particle": "create_encasedplus:block/shaft/copper"
+  }
+}

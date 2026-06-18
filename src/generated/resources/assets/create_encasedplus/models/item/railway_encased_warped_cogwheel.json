@@ -1,0 +1,6 @@
+{
+  "parent": "create_encasedplus:block/encased_cogwheel/railway/item",
+  "textures": {
+    "1_2": "create_encasedplus:block/cogwheel/warped"
+  }
+}

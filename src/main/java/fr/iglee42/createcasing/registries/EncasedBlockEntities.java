@@ -29,6 +29,8 @@ import com.simibubi.create.content.kinetics.mixer.MixerVisual;
 import com.simibubi.create.content.kinetics.press.MechanicalPressBlockEntity;
 import com.simibubi.create.content.kinetics.press.MechanicalPressRenderer;
 import com.simibubi.create.content.kinetics.press.PressVisual;
+import fr.iglee42.createcasing.blockEntities.CasingMixerBlockEntity;
+import fr.iglee42.createcasing.blockEntities.CasingPressBlockEntity;
 import com.simibubi.create.content.kinetics.saw.SawBlockEntity;
 import com.simibubi.create.content.kinetics.saw.SawRenderer;
 import com.simibubi.create.content.kinetics.saw.SawVisual;
@@ -100,14 +102,14 @@ public class EncasedBlockEntities {
             .renderer(() -> GearboxRenderer::new)
             .register();
 
-    public static final BlockEntityEntry<MechanicalMixerBlockEntity> MIXER = REGISTRATE
-            .blockEntity("mixer", MechanicalMixerBlockEntity::new)
+    public static final BlockEntityEntry<CasingMixerBlockEntity> MIXER = REGISTRATE
+            .blockEntity("mixer", CasingMixerBlockEntity::new)
             .visual(() -> MixerVisual::new)
             .renderer(() -> MechanicalMixerRenderer::new)
             .register();
 
-    public static final BlockEntityEntry<MechanicalPressBlockEntity> PRESS = REGISTRATE
-            .blockEntity("press", MechanicalPressBlockEntity::new)
+    public static final BlockEntityEntry<CasingPressBlockEntity> PRESS = REGISTRATE
+            .blockEntity("press", CasingPressBlockEntity::new)
             .visual(() -> PressVisual::new)
             .renderer(() -> MechanicalPressRenderer::new)
             .register();

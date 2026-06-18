@@ -1,0 +1,7 @@
+{
+  "parent": "create_encasedplus:block/templates/configurable_gearbox/face",
+  "textures": {
+    "0": "create:block/weathered_iron_block",
+    "particle": "create:block/weathered_iron_block"
+  }
+}

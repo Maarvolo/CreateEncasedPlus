@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_encasedplus:warped_shaft"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "create_encasedplus:blocks/shadow_steel_encased_warped_shaft"
+}

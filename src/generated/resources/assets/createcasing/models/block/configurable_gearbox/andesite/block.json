@@ -1,8 +1,0 @@
-{
-  "parent": "createcasing:block/templates/configurable_gearbox/block",
-  "textures": {
-    "0": "create:block/andesite_casing",
-    "1": "create:block/gearbox",
-    "particle": "create:block/andesite_casing"
-  }
-}

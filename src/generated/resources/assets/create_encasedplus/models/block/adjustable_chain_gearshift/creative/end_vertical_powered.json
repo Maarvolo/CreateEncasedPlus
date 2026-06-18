@@ -1,0 +1,7 @@
+{
+  "parent": "create_encasedplus:block/encased_chain_drive/creative/end_vertical",
+  "textures": {
+    "particle": "create:block/creative_casing",
+    "side": "create_encasedplus:block/adjustable_chain_gearshift_powered/creative"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "create:block/deployer/vertical",
+  "textures": {
+    "5": "create_encasedplus:block/casing_piston/weathered_iron",
+    "6": "create_encasedplus:block/piston_bottom/weathered_iron",
+    "7": "create_encasedplus:block/piston_inner/weathered_iron",
+    "andesite_casing_short": "create_encasedplus:block/casing_short/weathered_iron",
+    "gearbox": "create_encasedplus:block/gearbox/weathered_iron",
+    "gearbox_top": "create_encasedplus:block/gearbox_top/weathered_iron",
+    "particle": "create_encasedplus:block/gearbox_top/weathered_iron"
+  }
+}

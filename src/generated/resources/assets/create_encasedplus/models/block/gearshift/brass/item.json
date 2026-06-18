@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/gearshift/item",
+  "textures": {
+    "0": "create_encasedplus:block/gearshift_off/brass",
+    "1": "create:block/brass_gearbox",
+    "particle": "create_encasedplus:block/gearshift_off/brass"
+  }
+}

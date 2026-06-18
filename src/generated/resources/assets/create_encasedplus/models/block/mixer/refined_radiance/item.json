@@ -1,0 +1,10 @@
+{
+  "parent": "create:block/mechanical_mixer/item",
+  "textures": {
+    "11": "create_encasedplus:block/press_top/refined_radiance",
+    "2": "create:block/refined_radiance_casing",
+    "4": "create_encasedplus:block/mixer_side/refined_radiance",
+    "6": "create_encasedplus:block/mixer_head/refined_radiance",
+    "particle": "create:block/refined_radiance_casing"
+  }
+}

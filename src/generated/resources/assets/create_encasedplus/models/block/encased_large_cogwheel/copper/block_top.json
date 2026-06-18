@@ -1,0 +1,10 @@
+{
+  "parent": "create:block/encased_large_cogwheel/block_top",
+  "textures": {
+    "1": "create:block/copper_casing",
+    "4": "create_encasedplus:block/gearbox/copper",
+    "casing": "create:block/copper_casing",
+    "particle": "create:block/copper_casing",
+    "side": "create_encasedplus:block/encased_cogwheel/copper_connected"
+  }
+}

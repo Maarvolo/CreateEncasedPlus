@@ -88,7 +88,7 @@ public class EncasedSliceAndDiceCompat {
     private static ModelFile slicerModel(RegistrateProvider p, String casing, boolean item){
         if (!item)
             return Objects.requireNonNull(EncasedBlockStateGens.createModelInBlock(p, "slicer/" + casing+"/block"))
-                    .parent(new ModelFile.UncheckedModelFile("createcasing:block/mixer/"+casing+"/block"));
+                    .parent(new ModelFile.UncheckedModelFile("create_encasedplus:block/mixer/"+casing+"/block"));
         else
             return Objects.requireNonNull(EncasedBlockStateGens.createModelInBlock(p, "slicer/" + casing+"/item"))
                     .parent(new ModelFile.UncheckedModelFile("sliceanddice:block/slicer/item"))

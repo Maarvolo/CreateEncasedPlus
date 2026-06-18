@@ -1,0 +1,7 @@
+{
+  "parent": "create_encasedplus:block/encased_chain_drive/brass/end_horizontal",
+  "textures": {
+    "particle": "create:block/brass_casing",
+    "side": "create_encasedplus:block/adjustable_chain_gearshift_powered/brass"
+  }
+}

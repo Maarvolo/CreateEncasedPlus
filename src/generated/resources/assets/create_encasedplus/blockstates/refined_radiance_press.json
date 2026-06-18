@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create_encasedplus:block/press/refined_radiance/block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create_encasedplus:block/press/refined_radiance/block"
+    },
+    "facing=south": {
+      "model": "create_encasedplus:block/press/refined_radiance/block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_encasedplus:block/press/refined_radiance/block",
+      "y": 270
+    }
+  }
+}

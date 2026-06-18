@@ -21,7 +21,7 @@ public class CreateCasingCommand {
 
 
     public CreateCasingCommand(CommandDispatcher<CommandSourceStack> dispatcher) {
-        LiteralCommandNode<CommandSourceStack> command = dispatcher.register(Commands.literal("createcasing")
+        LiteralCommandNode<CommandSourceStack> command = dispatcher.register(Commands.literal("create_encasedplus")
                 .then(Commands.literal("placeAllBlocks").requires(c->c.hasPermission(4)).executes(this::placeBlocks)
                         .then(Commands.argument("filter", StringArgumentType.string()).executes(this::placeBlocksWithFilter))));
         dispatcher.register(Commands.literal("cc").requires(c->c.hasPermission(4)).redirect(command));

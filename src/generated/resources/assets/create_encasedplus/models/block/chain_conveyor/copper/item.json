@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/chain_conveyor/item",
+  "textures": {
+    "bullwheel": "create_encasedplus:block/bullwheel/copper",
+    "conveyor_casing": "create_encasedplus:block/conveyor_casing/copper",
+    "conveyor_port": "create_encasedplus:block/conveyor_port/copper",
+    "particle": "create:block/copper_casing"
+  }
+}

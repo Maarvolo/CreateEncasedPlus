@@ -1,0 +1,44 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "plugin": "fr.iglee42.createcasing.CreateCasingMixinPlugin",
+  "package": "fr.iglee42.createcasing.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "create_encasedplus.refmap.json",
+  "mixins": [
+    "create.AllSpriteShiftsMixin",
+    "create.AssemblyOperatorBlockItemMixin",
+    "create.BeltBlockEntityMixin",
+    "create.BeltBlockMixin",
+    "create.BeltCasingTypeMixin",
+    "create.BlockMovementChecksImplMixin",
+    "create.ChainConveyorConnectionHandlerMixin",
+    "create.ChainDriveBlockMixin",
+    "create.ChuteBlockEntityMixin",
+    "create.CreateJeiMixin",
+    "create.DeployerBlockEntityAccessor",
+    "create.DeployerBlockEntityMixin",
+    "create.PackagerBlockMixin",
+    "create.SchematicHandlerMixin",
+    "create.arm_interactions.DeployerMixin",
+    "create.arm_interactions.DepotMixin",
+    "create.arm_interactions.SawMixin",
+    "create.catnip.StitchedSpriteMixin",
+    "minecraft.IItemExtensionMixin",
+    "sliceanddice.FarmersDelightCompatMixin",
+    "sliceanddice.SlicerMixin"
+  ],
+  "client": [
+    "create.BeltModelMixin",
+    "create.client.ChainConveyorRendererMixin",
+    "create.client.ChainConveyorVisualMixin",
+    "create.client.DrillRendererMixin",
+    "create.client.MechanicalMixerRendererMixin",
+    "create.client.MixerVisualMixin",
+    "create.client.RollerActorVisualMixin",
+    "create.client.RollerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

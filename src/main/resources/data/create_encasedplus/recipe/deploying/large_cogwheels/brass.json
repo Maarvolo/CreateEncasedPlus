@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create_encasedplus:brass_cogwheel"
+    },
+    {
+      "tag": "c:ingots/brass"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_encasedplus:brass_large_cogwheel"
+    }
+  ]
+}

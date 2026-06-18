@@ -1,0 +1,11 @@
+{
+  "parent": "create:block/mechanical_saw/horizontal",
+  "textures": {
+    "andesite_casing_short": "create_encasedplus:block/casing_short/brass",
+    "encased_belt": "create_encasedplus:block/encased_chain_drive/brass",
+    "gearbox": "create:block/brass_gearbox",
+    "gearbox_top": "create_encasedplus:block/gearbox_top/brass",
+    "particle": "create_encasedplus:block/gearbox_top/brass",
+    "slit": "create_encasedplus:block/mechanical_saw_top_no_slot/brass"
+  }
+}

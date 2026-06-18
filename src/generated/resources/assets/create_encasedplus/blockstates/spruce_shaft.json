@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_encasedplus:block/shaft/spruce",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_encasedplus:block/shaft/spruce"
+    },
+    "axis=z": {
+      "model": "create_encasedplus:block/shaft/spruce",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/clutch/item",
+  "textures": {
+    "0": "create_encasedplus:block/automatic_clutch_off/industrial_iron",
+    "1": "create_encasedplus:block/gearbox/industrial_iron",
+    "4": "create_encasedplus:block/funnel_frame/industrial_iron",
+    "particle": "create_encasedplus:block/automatic_clutch_off/industrial_iron"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "sliceanddice:block/slicer/item",
+  "textures": {
+    "11": "create_encasedplus:block/press_top/shadow_steel",
+    "2": "create:block/shadow_steel_casing",
+    "4": "create_encasedplus:block/mixer_side/shadow_steel",
+    "particle": "create:block/shadow_steel_casing"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_encasedplus:block/depot/shadow_steel/block"
+    }
+  }
+}

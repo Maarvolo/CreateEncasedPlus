@@ -1,9 +1,0 @@
-{
-  "parent": "create:block/gearshift/block_powered",
-  "textures": {
-    "0": "createcasing:block/gearshift_on/shadow_steel",
-    "1": "createcasing:block/gearbox/shadow_steel",
-    "2": "createcasing:block/funnel_frame/shadow_steel",
-    "particle": "createcasing:block/gearshift_on/shadow_steel"
-  }
-}

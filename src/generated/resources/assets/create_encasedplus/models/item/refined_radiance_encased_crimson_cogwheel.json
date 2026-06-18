@@ -1,0 +1,6 @@
+{
+  "parent": "create_encasedplus:block/encased_cogwheel/refined_radiance/item",
+  "textures": {
+    "1_2": "create_encasedplus:block/cogwheel/crimson"
+  }
+}

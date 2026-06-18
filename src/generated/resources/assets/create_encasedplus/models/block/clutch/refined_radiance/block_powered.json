@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/clutch/block_powered",
+  "textures": {
+    "0": "create_encasedplus:block/clutch_on/refined_radiance",
+    "1": "create_encasedplus:block/gearbox/refined_radiance",
+    "2": "create_encasedplus:block/funnel_frame/refined_radiance",
+    "particle": "create_encasedplus:block/clutch_on/refined_radiance"
+  }
+}

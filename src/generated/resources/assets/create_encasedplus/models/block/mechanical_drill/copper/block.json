@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/mechanical_drill/block",
+  "textures": {
+    "10": "create_encasedplus:block/casing_very_short/copper",
+    "gearbox": "create_encasedplus:block/gearbox/copper",
+    "gearbox_top": "create_encasedplus:block/gearbox_top/copper",
+    "particle": "create_encasedplus:block/gearbox/copper"
+  }
+}

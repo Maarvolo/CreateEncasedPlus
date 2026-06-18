@@ -1,0 +1,7 @@
+{
+  "parent": "create_encasedplus:block/encased_chain_drive/weathered_iron/item",
+  "textures": {
+    "particle": "create:block/weathered_iron_block",
+    "side": "create_encasedplus:block/adjustable_chain_gearshift/weathered_iron"
+  }
+}

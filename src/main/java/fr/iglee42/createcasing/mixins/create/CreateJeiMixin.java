@@ -4,8 +4,9 @@ import com.simibubi.create.compat.jei.CreateJEI;
 import com.simibubi.create.compat.jei.category.*;
 import fr.iglee42.createcasing.casings.CasingSet;
 import fr.iglee42.createcasing.casings.CasingSets;
-import fr.iglee42.createcasing.registries.EncasedBlocks;
+import fr.iglee42.createcasing.config.ModConfigs;
 import mezz.jei.api.registration.IRecipeCatalystRegistration;
+import net.minecraft.world.item.ItemStack;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -25,14 +26,6 @@ public class CreateJeiMixin {
     private void inject(IRecipeCatalystRegistration registration, CallbackInfo ci){
 
         for (CreateRecipeCategory<?> c : this.allCategories) {
-            if (c instanceof MixingCategory) {
-                CasingSets.getSets().stream().filter(set-> Objects.nonNull(set.getMixer())).filter(CasingSet::doesGenerateMixer)
-                        .forEach(set->registration.addRecipeCatalyst(set.getMixer(),c.getRecipeType()));
-            }
-            if (c instanceof PressingCategory || c.getRecipeType().getUid().getPath().equals("packing") || c.getRecipeType().getUid().getPath().equals("automatic_packing")) {
-                CasingSets.getSets().stream().filter(set-> Objects.nonNull(set.getPress())).filter(CasingSet::doesGeneratePress)
-                        .forEach(set->registration.addRecipeCatalyst(set.getPress(),c.getRecipeType()));
-            }
             if (c instanceof DeployingCategory)
                 CasingSets.getSets().stream().filter(set-> Objects.nonNull(set.getDeployer())).filter(CasingSet::doesGenerateDeployer)
                         .forEach(set->registration.addRecipeCatalyst(set.getDeployer(),c.getRecipeType()));
@@ -44,6 +37,14 @@ public class CreateJeiMixin {
             if (c instanceof ProcessingViaFanCategory)
                 CasingSets.getSets().stream().filter(set-> Objects.nonNull(set.getEncasedFan())).filter(CasingSet::doesGenerateEncasedFan)
                         .forEach(set->registration.addRecipeCatalyst(set.getEncasedFan(),c.getRecipeType()));
+
+            if ((c instanceof PressingCategory || c instanceof PackingCategory) && ModConfigs.common().kinetics.customPressesUseStandardRecipes.get())
+                CasingSets.getSets().stream().filter(CasingSet::doesGeneratePress).filter(set-> Objects.nonNull(set.getPress()))
+                        .forEach(set->registration.addRecipeCatalyst(new ItemStack(set.getPress()),c.getRecipeType()));
+
+            if (c instanceof MixingCategory && ModConfigs.common().kinetics.customMixersUseStandardRecipes.get())
+                CasingSets.getSets().stream().filter(CasingSet::doesGenerateMixer).filter(set-> Objects.nonNull(set.getMixer()))
+                        .forEach(set->registration.addRecipeCatalyst(new ItemStack(set.getMixer()),c.getRecipeType()));
         }
     }
 

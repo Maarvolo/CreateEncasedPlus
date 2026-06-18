@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create_encasedplus:zinc_cogwheel"
+    },
+    {
+      "tag": "c:ingots/zinc"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_encasedplus:zinc_large_cogwheel"
+    }
+  ]
+}

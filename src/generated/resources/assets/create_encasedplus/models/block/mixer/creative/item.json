@@ -1,0 +1,10 @@
+{
+  "parent": "create:block/mechanical_mixer/item",
+  "textures": {
+    "11": "create_encasedplus:block/press_top/creative",
+    "2": "create:block/creative_casing",
+    "4": "create_encasedplus:block/mixer_side/creative",
+    "6": "create_encasedplus:block/mixer_head/creative",
+    "particle": "create:block/creative_casing"
+  }
+}

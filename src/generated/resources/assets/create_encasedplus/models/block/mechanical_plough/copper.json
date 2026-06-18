@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/mechanical_plough",
+  "textures": {
+    "andesite_casing_short": "create_encasedplus:block/casing_short/copper",
+    "particle": "create_encasedplus:block/casing_short/copper"
+  }
+}

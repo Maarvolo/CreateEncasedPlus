@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/encased_fan/item",
+  "textures": {
+    "2": "create_encasedplus:block/gearbox/refined_radiance",
+    "fan_casing": "create_encasedplus:block/fan_casing/refined_radiance",
+    "fan_side": "create_encasedplus:block/fan_side/refined_radiance",
+    "particle": "create_encasedplus:block/fan_side/refined_radiance"
+  }
+}
